@@ -4,8 +4,6 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import routes from "./routers/index";
 import morgan from "morgan";
-import axios  from "axios";
-const { Configuration, OpenAIApi } = require("openai");
 
 dotenv.config();
 
